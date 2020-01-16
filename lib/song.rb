@@ -28,4 +28,6 @@ class Song
     song.save # saves the name
     song # returns the name
   end
+  
+  def find
 end
