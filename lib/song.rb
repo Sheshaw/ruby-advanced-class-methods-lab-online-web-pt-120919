@@ -29,6 +29,6 @@ class Song
     song # returns the name
   end
   
-  def find_by_name(name)
-    
+  #def find_by_name(name)
+   # sel
 end
