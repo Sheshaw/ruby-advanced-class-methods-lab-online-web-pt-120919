@@ -18,5 +18,3 @@ class Song
 
 end
 
-roses = Song.new("Roses")
-
