@@ -65,5 +65,5 @@ class Song
   end
 end
 
-song = Song.new("")
+song = Song.new_from_filename("Thundercat - For Love I Come.mp3")
 
