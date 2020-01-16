@@ -48,4 +48,6 @@ end
     song.save
     song
   end
+  
+  def self.destroy_all
 end
