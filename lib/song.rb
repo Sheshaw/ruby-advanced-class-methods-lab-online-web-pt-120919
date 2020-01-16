@@ -41,6 +41,6 @@ end
     @@all.sort_by{ |song| song.name }
   end
   def self.new_from_filename(filename)
-    split_filename = filename.chomp(".mp3").split("  ")
+    split_filename = filename.chomp(".mp3").split(" -- ")
   end
 end
