@@ -40,7 +40,7 @@ end
   def self.alphabetical
     @@all.sort_by{ |song| song.name }
   end
-  def self.new_from_filename(filename)
+  def self.create_from_filename(filename)
     split_filename = filename.chomp(".mp3").split(" – ")
     song = Song.new
     song.name = split_filename[1]
@@ -54,5 +54,5 @@ end
   end
 end
 
-song = Song.new_from_filename("Thundercat – For I Love I Come.mp3")
+song = Song.create_from_filename("Thundercat – For I Love I Come.mp3")
 song
