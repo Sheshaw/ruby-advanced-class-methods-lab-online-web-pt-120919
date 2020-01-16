@@ -63,5 +63,4 @@ end
   end
 end
 
-song = Song.create_from_filename("Thundercat – For I Love I Come.mp3")
-song
+
