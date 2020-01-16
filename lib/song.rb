@@ -16,3 +16,6 @@ class Song
   end
 
 end
+
+roses = Song.new("Roses")
+
