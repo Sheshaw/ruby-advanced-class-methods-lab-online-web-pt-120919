@@ -23,8 +23,9 @@ class Song
   end
   
   def self.create_by_name(name)
-    song = self.new
-    song.name = name
-    song
+    song = self.new # instantiates
+    song.name = name # makes song.name equal to the name and gets it
+    song.save # saves the name
+    song # returns the name
+  end
 end
-
