@@ -53,3 +53,5 @@ end
     self.all.clear
   end
 end
+
+song = Song.new_from_filename("Thundercat – For I Love I Come.mp3")
