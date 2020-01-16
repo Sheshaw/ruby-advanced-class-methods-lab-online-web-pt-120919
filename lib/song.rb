@@ -50,4 +50,6 @@ end
   end
   
   def self.destroy_all
+    self.all.clear
+    @@all = []
 end
