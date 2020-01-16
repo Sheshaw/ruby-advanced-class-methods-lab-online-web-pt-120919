@@ -11,13 +11,13 @@ class Song
   end
   
   def self.create
-    song = self.new
-    song.save
-    song
+    song = self.new #instantiates
+    song.save # calles the .save method and saves it
+    song # returns it
   end
   
   def self.new_by_name(name)
-    song = self.new #intantiates
+    song = self.new
 
 end
 
