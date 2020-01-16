@@ -48,7 +48,7 @@ end
     song
   end
   
-  def self.create_from_filename
+  def self.create_from_filename(filename)
     song = self.create
     split_filename = filename.chomp(".mp3").split(" – ")
     song.name = split_filename[1]
